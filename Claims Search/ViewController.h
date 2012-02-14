@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+        <UITableViewDelegate, UITableViewDataSource>
 
+{
+    NSArray *claims;
+}
+@property (nonatomic, strong) NSArray *claims;
+@property (strong, nonatomic) IBOutlet UITableView *searchResults;
 @end

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8602A10614E5BF8600F9AD7D /* circle_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 8602A10414E5BF8500F9AD7D /* circle_orange.png */; };
+		8602A10714E5BF8600F9AD7D /* circle_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8602A10514E5BF8500F9AD7D /* circle_green.png */; };
+		8602A10A14E5C14700F9AD7D /* Claim.m in Sources */ = {isa = PBXBuildFile; fileRef = 8602A10914E5C14700F9AD7D /* Claim.m */; };
 		8656EF3E14E58524004BAEF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8656EF3D14E58524004BAEF1 /* UIKit.framework */; };
 		8656EF4014E58524004BAEF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8656EF3F14E58524004BAEF1 /* Foundation.framework */; };
 		8656EF4214E58524004BAEF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8656EF4114E58524004BAEF1 /* CoreGraphics.framework */; };
@@ -34,25 +37,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8602A10414E5BF8500F9AD7D /* circle_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_orange.png; sourceTree = "<group>"; };
+		8602A10514E5BF8500F9AD7D /* circle_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_green.png; sourceTree = "<group>"; };
+		8602A10814E5C14700F9AD7D /* Claim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Claim.h; sourceTree = "<group>"; };
+		8602A10914E5C14700F9AD7D /* Claim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Claim.m; sourceTree = "<group>"; };
 		8656EF3914E58524004BAEF1 /* Claims Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Claims Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8656EF3D14E58524004BAEF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8656EF3F14E58524004BAEF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8656EF4114E58524004BAEF1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8656EF4514E58524004BAEF1 /* Claims Search-Info.plist */ = {isa = PBXFileReference; path = "Claims Search-Info.plist"; sourceTree = "<group>"; };
+		8656EF4514E58524004BAEF1 /* Claims Search-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Claims Search-Info.plist"; sourceTree = "<group>"; };
 		8656EF4714E58524004BAEF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8656EF4914E58524004BAEF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8656EF4B14E58524004BAEF1 /* Claims Search-Prefix.pch */ = {isa = PBXFileReference; path = "Claims Search-Prefix.pch"; sourceTree = "<group>"; };
-		8656EF4C14E58524004BAEF1 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		8656EF4B14E58524004BAEF1 /* Claims Search-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Claims Search-Prefix.pch"; sourceTree = "<group>"; };
+		8656EF4C14E58524004BAEF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8656EF4D14E58524004BAEF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8656EF5014E58524004BAEF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		8656EF5314E58524004BAEF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		8656EF5514E58524004BAEF1 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		8656EF5514E58524004BAEF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8656EF5614E58525004BAEF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8656EF5D14E58525004BAEF1 /* Claims SearchTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Claims SearchTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8656EF5E14E58525004BAEF1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		8656EF6614E58525004BAEF1 /* Claims SearchTests-Info.plist */ = {isa = PBXFileReference; path = "Claims SearchTests-Info.plist"; sourceTree = "<group>"; };
+		8656EF6614E58525004BAEF1 /* Claims SearchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Claims SearchTests-Info.plist"; sourceTree = "<group>"; };
 		8656EF6814E58525004BAEF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8656EF6A14E58525004BAEF1 /* Claims_SearchTests.h */ = {isa = PBXFileReference; path = Claims_SearchTests.h; sourceTree = "<group>"; };
+		8656EF6A14E58525004BAEF1 /* Claims_SearchTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Claims_SearchTests.h; sourceTree = "<group>"; };
 		8656EF6B14E58525004BAEF1 /* Claims_SearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Claims_SearchTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +87,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8602A10214E5BF5A00F9AD7D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8602A10414E5BF8500F9AD7D /* circle_orange.png */,
+				8602A10514E5BF8500F9AD7D /* circle_green.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		8656EF2E14E58524004BAEF1 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +129,7 @@
 		8656EF4314E58524004BAEF1 /* Claims Search */ = {
 			isa = PBXGroup;
 			children = (
+				8602A10214E5BF5A00F9AD7D /* Images */,
 				8656EF4C14E58524004BAEF1 /* AppDelegate.h */,
 				8656EF4D14E58524004BAEF1 /* AppDelegate.m */,
 				8656EF4F14E58524004BAEF1 /* MainStoryboard_iPhone.storyboard */,
@@ -120,6 +137,8 @@
 				8656EF5514E58524004BAEF1 /* ViewController.h */,
 				8656EF5614E58525004BAEF1 /* ViewController.m */,
 				8656EF4414E58524004BAEF1 /* Supporting Files */,
+				8602A10814E5C14700F9AD7D /* Claim.h */,
+				8602A10914E5C14700F9AD7D /* Claim.m */,
 			);
 			path = "Claims Search";
 			sourceTree = "<group>";
@@ -227,6 +246,8 @@
 				8656EF4814E58524004BAEF1 /* InfoPlist.strings in Resources */,
 				8656EF5114E58524004BAEF1 /* MainStoryboard_iPhone.storyboard in Resources */,
 				8656EF5414E58524004BAEF1 /* MainStoryboard_iPad.storyboard in Resources */,
+				8602A10614E5BF8600F9AD7D /* circle_orange.png in Resources */,
+				8602A10714E5BF8600F9AD7D /* circle_green.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +285,7 @@
 				8656EF4A14E58524004BAEF1 /* main.m in Sources */,
 				8656EF4E14E58524004BAEF1 /* AppDelegate.m in Sources */,
 				8656EF5714E58525004BAEF1 /* ViewController.m in Sources */,
+				8602A10A14E5C14700F9AD7D /* Claim.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +465,7 @@
 				8656EF7114E58525004BAEF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8656EF7214E58525004BAEF1 /* Build configuration list for PBXNativeTarget "Claims SearchTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +474,7 @@
 				8656EF7414E58525004BAEF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
